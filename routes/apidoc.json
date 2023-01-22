@@ -1,0 +1,35 @@
+{
+  "name": "Car Service service Api documentation",
+  "version": "0.3.0",
+  "description": "Documentation for the REST api access for Car service",
+  "title": "REST API for car service",
+  "url": "http://localhost:3000",
+  "sampleUrl": "http://localhost:3000",
+  "output": "/tmp/apidoc-output",
+  "input": [
+    "example"
+  ],
+  "order": [
+    "ReservedDates",
+    "ReservedDateId",
+    "ReservedDateIdCustomer",
+    "ReservedDateIdCar",
+    "PostReservedDate",
+    "PutReservedDate",
+    "DeleteReservedDate",
+    "FreeDates",
+    "DeleteFreeDates"
+  ],
+  "header": {
+    "title": "Introduction"
+  },
+  "footer": {
+    "title": "Best practices"
+  },
+  "template": {
+    "showRequiredLabels": false,
+    "withCompare": true,
+    "withGenerator": true,
+    "aloneDisplay": false
+  }
+}
